@@ -1,0 +1,31 @@
+.bottom {
+  background: url(/dirt.png);
+  display: flex;
+}
+p {
+  background: white;
+  width: fit-content;
+}
+button {
+  background: white;
+}
+body {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  height: 100%;
+}
+iframe {
+  display: block;
+  flex: 1;
+}
+.play {
+  background: url(/stone.png);
+}
+.login {
+  flex: 1;
+  padding: 7px;
+}
+html {
+  height: 100%;
+}
